@@ -2,8 +2,8 @@ using System;
 
 class Task
 {
-  string name;
-  bool isComplete;
+  public string name { get; set; }
+  public bool isComplete { get; set; }
 
   public Task(string name)
   {
